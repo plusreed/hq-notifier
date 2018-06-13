@@ -13,15 +13,15 @@ console.log(strings.READY);
 function getHQStatus() {
     setTimeout(() => {
         fetch('https://api-quiz.hype.space/shows/now?type=hq')
-            .then(response => response.json())
-            .then(json => {
+            .then((response) => response.json())
+            .then((json) => {
                 if (json.active == true) {
                     console.log(strings.LIVE);
                     notifier.notify({
                         title: strings.NOTIFIER_TITLE,
                         message: strings.NOTIFIER_MESSAGE,
                         icon: './assets/HQ.png',
-                    }, () => process.exit(0))
+                    }, () => process.exit(0));
                 } else console.log(strings.NOT_LIVE);
             });
         getHQStatus();
