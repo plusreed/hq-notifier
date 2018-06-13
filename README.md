@@ -1,4 +1,7 @@
 # hq-notifier
+
+[![Build Status](https://travis-ci.com/plusreed/hq-notifier.svg?branch=master)](https://travis-ci.com/plusreed/hq-notifier)
+
 A simple program which tells you when an HQ Trivia show is live.
 
 ## Installing
