@@ -1,6 +1,6 @@
 # hq-notifier
 
-[![Build Status](https://travis-ci.com/plusreed/hq-notifier.svg?branch=master)](https://travis-ci.com/plusreed/hq-notifier)
+[![Build Status](https://travis-ci.com/plusreed/hq-notifier.svg?branch=master)](https://travis-ci.com/plusreed/hq-notifier) [![Greenkeeper badge](https://badges.greenkeeper.io/plusreed/hq-notifier.svg)](https://greenkeeper.io/)
 
 A simple program which tells you when an HQ Trivia show is live.
 
