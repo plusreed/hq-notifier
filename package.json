@@ -4,6 +4,7 @@
   "description": "A basic program that notifies you when HQ Trivia is live.",
   "main": "notifier.js",
   "scripts": {
+    "notifier": "node notifier",
     "test": "eslint ."
   },
   "keywords": [],

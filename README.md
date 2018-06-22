@@ -9,7 +9,7 @@ A simple program which tells you when an HQ Trivia show is live.
 git clone https://github.com/plusreed/hq-notifier
 cd hq-notifier
 npm i
-node notifier
+npm run notifier
 ```
 
 ## Configuring
