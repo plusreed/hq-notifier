@@ -13,9 +13,9 @@ console.log(strings.READY);
 function getHQStatus() {
     setTimeout(() => {
         fetch('https://api-quiz.hype.space/shows/now?type=hq')
-            .then((response) => response.json())
-            .then((json) => {
-                if (json.active == true) {
+            .then(response => response.json())
+            .then(json => {
+                if(json.active == true) {
                     console.log(strings.LIVE);
                     notifier.notify({
                         title: strings.NOTIFIER_TITLE,
