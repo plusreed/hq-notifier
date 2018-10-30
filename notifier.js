@@ -12,8 +12,8 @@ console.log(strings.READY);
  */
 function getHQStatus() {
     setTimeout(() => {
-        fetch(`https://api-quiz.hype.space/shows/now?type=${config.type}`).then(response => response.json()).then(json => {
-            if(json.active == true) {
+        fetch(`https://api-quiz.hype.space/shows/now?type=${config.type}`).then((response) => response.json()).then((json) => {
+            if (json.active == true) {
                 console.log(strings.LIVE);
                 notifier.notify({
                     title: strings.NOTIFIER_TITLE,
@@ -21,7 +21,7 @@ function getHQStatus() {
                     icon: './assets/HQ.png',
                 }, () => process.exit(0));
             } else {
-                console.log(strings.NOT_LIVE);   
+                console.log(strings.NOT_LIVE);
             }
         });
         getHQStatus();
